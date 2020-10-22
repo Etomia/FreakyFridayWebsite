@@ -27,44 +27,25 @@ p {
     line-height: 2.5;
 }
 
-.mainbox1 { 
-    color: #0B635B;
-    padding-left: 2%;
-    padding-right: 7%;
-    padding-bottom: 6ex;
-    padding-top: 4ex;
-    
-}
-
-.mainbox2 { 
-    color: #0B635B;
-    padding-bottom: 0ex;
-    padding-top: 8ex;
-    text-align: center;
+.containerbox {
+    margin: 10vw;
+    border: 2px solid black;
+    padding: 1vw;
 }
 
 .contactinfo {
-    list-style-type: none;
-    list-style: none;
-    line-height: 2.2;
-    margin: 5px;
-    padding: 2px;
+    line-height: 1;
 }
 
-.icons {
-    opacity: 0.80;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: block;
-    position: sticky;
-    top: 8em; 
+.contactinfo p {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
 }
 
 #topnav {
     overflow: hidden;
+    width: 100%;
     background-color: white;
     height: auto;
     border-bottom: 2px solid black;
@@ -74,7 +55,7 @@ p {
 }
 
 #topnav h1{
-    font-size: 1vw; 
+    font-size: 2vw; 
     background-color: transparent;
     border-right: 2px solid black;
     float: left;
@@ -87,10 +68,11 @@ p {
 }
 
 #topnav a{
-    font-size: 1vw;
+    font-size: 1.5vw;
     background-color: transparent;
     border-right: 2px solid black; 
     float: left;
+    width: 15vw;
     color: black;
     text-decoration: none;
     text-align: center;
@@ -104,4 +86,16 @@ p {
 #topnav a:hover {
     background-color: black;
     color: white;
+}
+
+@media (max-width: 700px) {
+    #topnav a {
+        font-size: 2vw;
+    }
+
+    .containerbox {
+        margin-left: 2px;
+        margin-right: 2px;
+
+    }
 }
