@@ -35,6 +35,7 @@ p {
     margin: 10vw;
     border: 2px solid black;
     padding: 1vw;
+    text-align: center;
 }
 
 .contactinfo {
@@ -45,6 +46,10 @@ p {
     margin: 0px;
     padding: 0px;
     line-height: 1;
+}
+
+.productname {
+    font-weight: bold;
 }
 
 #topnav {
