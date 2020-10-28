@@ -1,8 +1,8 @@
 .container {
     display: grid;
     grid-template-columns: auto;
-    grid-auto-rows: minmax(100px, auto);
-    grid-auto-columns: minmax(100px,200px);
+    grid-auto-rows: minmax(25px, auto);
+    grid-auto-columns: minmax(25px,200px);
     grid-gap: 0px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 
-@media (max-width: 900px) {
+@media screen and (max-width: 27em) {
     .container {
         display: block;
     }
@@ -52,6 +52,10 @@
     }
     
     .col{
+        width: 98%;
+    }
+    body {
         width: 100%;
+
     }
   }

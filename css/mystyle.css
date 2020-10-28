@@ -8,6 +8,7 @@ body {
     margin-right:0px;
     padding: 0px;
     background-color: white;
+    width: 100%;
 }
 
 .leftline {
@@ -96,7 +97,7 @@ p {
     color: white;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 27em) {
     #topnav a {
         font-size: 3vw;
         padding: 2vw;
@@ -106,6 +107,6 @@ p {
     .containerbox {
         margin-left: 2px;
         margin-right: 2px;
-
+        width: 95%;
     }
 }
